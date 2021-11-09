@@ -15,6 +15,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "Address")
 public class Address {
+	private String test="Test code";
 
 	@Column(name = "id")
 	private String id;
